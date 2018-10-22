@@ -2,13 +2,23 @@
 // aplication wide styles 
 
 h1 {
-    color: rgb(247, 247, 247);
+    p.normal {
+        color: rgb(247, 247, 247);
+      }
+    p.projects {
+        color: rgb(247, 247, 247);
+    }
     font-family: Arial, Helvetica, sans-serif;
     font-size: 250%;
 }
 
 h2, h3 {
-    color: rgb(247, 247, 247);
+    p.normal {
+        color: rgb(247, 247, 247);
+      }
+    p.projects {
+        color: rgb(247, 247, 247);
+    }
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -16,9 +26,15 @@ h2, h3 {
 body {
     margin: 2em;
 }
+.normal {
+    background: black;
+  }
+.projects {
+    background: rgb(40, 40, 45);
+}
 
 body, input[text], button {
-    color: blue;
+    color: rgb(175, 175, 175);
     font-family: Cambria, Georgia;
     background: black;
 }
